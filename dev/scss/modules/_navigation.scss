@@ -1,0 +1,101 @@
+.Bot-Nav {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.48);
+-moz-box-shadow:    0px 8px 15px 0px rgba(0, 0, 0, 0.48);
+box-shadow:         0px 8px 15px 0px rgba(0, 0, 0, 0.48);
+z-index: 99999999999999;
+}
+
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  text-align: center;
+
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-list {
+	display: block;
+	margin: 0px;
+  float: right;
+  margin-top: 43px;
+
+}
+
+.Navigation-link.is-active {
+  text-decoration: underline;
+}
+
+.navi {
+  float: right;
+  width: 50%;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: block;
+  margin: 0 3px;
+  float: left;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  opacity: 1;
+  -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.32);
+-moz-box-shadow:    4px 4px 11px 0px rgba(0, 0, 0, 0.32);
+box-shadow:         4px 4px 11px 0px rgba(0, 0, 0, 0.32);
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  color: #333 !important;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}

@@ -1,0 +1,67 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.header-midden {
+  z-index:999999;
+  position: absolute;
+width: 100%;
+}
+
+@media all and (max-width: 1040px) {
+  .header-midden {
+    position: static;
+  }
+} 
+
+.header-midden-nav {
+  opacity: 1;
+  padding: 14px 0;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+.topbanner {
+  background: #004b8d;
+  padding: 10px 0;
+}
+
+.toptelefoon {
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  img {
+    width: 23px;
+  }
+}
+
+

@@ -1,0 +1,35 @@
+.Footer {
+		background: #004b8d;
+		color: white;
+		padding: 20px 0;
+
+		h4
+		 {
+			margin:0;
+			padding:0;
+		}
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	width: 20%;
+	float: left;
+	@media screen and(max-width: 850px){
+width: 100%;
+}
+
+	@media screen and(max-width: 500px){
+		width: 100%;
+	}
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.Socket {
+	background: #00305a;
+	text-align: center;
+	color: white;
+}
