@@ -82,7 +82,8 @@
             Welkom bij Drechtaccount!
         </div>
             <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
-                    <img class="header-onderkant-slider-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/example1.jpg" >
-                    <img class="header-onderkant-slider-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/example2.jpg" >
+                    <img class="header-onderkant-slider-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sliderimage1.png" >
+                    <img class="header-onderkant-slider-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sliderimage2.png" >
+                    <img class="header-onderkant-slider-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sliderimage3.png" >
             </div>   <!-- einde slider van de onderkant header -->   
     </div>
